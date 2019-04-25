@@ -29,11 +29,11 @@
     <bean id="evaluator.doclib.action.onlyofficeEditMimetype" parent="evaluator.doclib.action.isMimetype">
        <property name="mimetypes">
           <list>
-              <value>application/vnd.ms-excel</value>
+              <!--<value>application/vnd.ms-excel</value>-->
               <value>application/vnd.ms-powerpoint</value>
               <value>application/msword</value>
-              <value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</value>
-              <value>application/vnd.openxmlformats-officedocument.spreadsheetml.template</value>
+              <!--<value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</value>-->
+              <!--<value>application/vnd.openxmlformats-officedocument.spreadsheetml.template</value>-->
               <value>application/vnd.openxmlformats-officedocument.wordprocessingml.document</value>
               <value>application/vnd.openxmlformats-officedocument.wordprocessingml.template</value>
               <value>application/vnd.openxmlformats-officedocument.presentationml.presentation</value>
